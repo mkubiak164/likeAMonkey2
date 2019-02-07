@@ -13,35 +13,7 @@ public class Monkey {
     }
 
     public static void main(String[] args) {
-        System.out.println("Monkey 2+3");
-        age(25);
-        int age2 = age2(25);
-        System.out.println(age2);
-        dwieLiczby(8, 5);
-        int tabelaTest[] = {3, 5, 7};
-        Monkey monkey = new Monkey();
-        monkey.odwroconeLiczby(tabelaTest);
-        wyswietlanieLiczb(8);
-        wyswietlanieLiczb2(4);
-        ArrayFactory.getInstance();
-        ArrayFactory.odwrotnoscLiczby(589);
-        ArrayFactory.odwroconeSlowo("krewetka");
-        ArrayFactory.czyPalindrom("mors");
-        ArrayFactory.czyPalindrom("kajak");
-        ArrayFactory.macierz(8);
-        int[] abc = {1,7,2,8,3};
-        ArrayFactory.sortowanie(abc);
-
-        Circle circle = new Circle(3);
-        Rectangle rectangle = new Rectangle(4,6);
-        Triangle triangle = new Triangle(6, 7);
-        Figure figury[] = {circle, rectangle, triangle};
-
-        for(int i=0; i<figury.length; i++) {
-            System.out.println("Obwód: " + figury[i].getPerimeter() + " ");
-            System.out.println("Pole: " + figury[i].getArea() + " ");
-        }
-
+       
     }
 
     public static void age(int age) {
