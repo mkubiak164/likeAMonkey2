@@ -15,6 +15,9 @@ public class Monkey {
     public static void main(String[] args) {
 
         System.out.println("tralalala");
+        System.out.println("Old: "+ oldAge(20));
+        System.out.println("Youth: "+ youthAge(15));
+        System.out.println("Czy parzysta: " + czyParzysta(1456));
 
 
     }
@@ -23,13 +26,15 @@ public class Monkey {
         System.out.println(age);
     }
 
-    public static int age22222(int age2) {
+    public static int oldAge(int age) {
 
+        int oldAge = age * 2;
+        return oldAge;
+    }
 
-
-
-        
-        return age2;
+    public static int youthAge(int age){
+        int youthAge = age / 2;
+        return  youthAge;
     }
 
     public static void dwieLiczby (int a, int b) {
@@ -41,12 +46,9 @@ public class Monkey {
     }
 
     public static boolean czyParzysta (int p) {
-        int wynik = p%2;
-        if(wynik == 0) {
-            return true;
-        } else {
-            return false;
-        }
+
+        return p % 2 == 0;
+
     }
 
     public static boolean dzielePrzez3i5 (int f) {
