@@ -13,11 +13,12 @@ public class Monkey {
     }
 
     public static void main(String[] args) {
-        System.out.println("tralalala");
+        System.out.println("commity i pushe");
+        System.out.println("i merge");
 
     }
 
-    public static void age(int age) {
+    public static void age69852(int age) {
         System.out.println(age);
     }
 
