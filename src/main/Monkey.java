@@ -13,10 +13,7 @@ public class Monkey {
     }
 
     public static void main(String[] args) {
-        System.out.println("Takie wielkie zmiany");
-
-        System.out.println("Hej");
-        czyParzysta(98645);
+       
 
     }
 
@@ -24,7 +21,7 @@ public class Monkey {
         System.out.println(age);
     }
 
-    public static int age22(int age2) {
+    public static int age22222(int age2) {
         return age2;
     }
 
