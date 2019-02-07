@@ -14,18 +14,21 @@ public class Monkey {
 
     public static void main(String[] args) {
 
+        System.out.println("Hej");
+        czyParzysta(98645);
+
     }
 
     public static void age(int age) {
         System.out.println(age);
     }
 
-    public static int age2(int age2) {
+    public static int age23(int age2) {
         return age2;
     }
 
     public static void dwieLiczby (int a, int b) {
-        int suma = a+b;
+        int suma = a+b+b+b;
         int roznica = a-b;
         int iloczyn = a*b;
         System.out.println("Suma: " + suma + ", różnica: " + roznica
