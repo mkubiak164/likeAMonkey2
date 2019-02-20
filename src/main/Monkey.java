@@ -17,7 +17,6 @@ public class Monkey {
         System.out.println("tralalala");
         System.out.println("Old: "+ oldAge(20));
         System.out.println("Youth: "+ youthAge(15));
-        System.out.println("Czy parzysta: " + czyParzysta(1456));
 
 
     }
